@@ -1,1 +1,48 @@
 <!-- ...crickets... -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Registration form</h2>
+    <form>
+        <label>Username</label>
+        <input>
+        <label>Password</label>
+        <input>
+        <label>Email</label>
+        <input>
+    </form>
+    <h3>Which taxi do you require?</h3>
+    <input type="radio" id="car" name="taxiType" value="car">
+    <label for="car">Car</label>
+    <input type="radio" id="van" name="taxiType" value="van">
+    <label for="van">Van</label>
+    <input type="radio" id="tuktuk" name="taxiType" value="tuktuk">
+    <label for="tuktuk">Tuk Tuk</label>
+    <h3>Choose your extras</h3>
+    <input type="checkbox" id="babyseat" name="babyseat" value="babyseat">
+    <label for="babyseat">Baby seat</label>
+    <input type="checkbox" id="Wheelchairaccess" name="Wheelchairaccess" value="Wheelchairaccess">
+    <label for="Wheelchairaccess">Wheelchair access</label>
+    <input type="checkbox" id="privacywindow" name="privacywindow" value="privacywindow">
+    <label for="privacywindow">Privacy window</label>
+    <h3>Where would you like us to pick you up?</h3>
+    <label for="location">Pickup location:</label>
+    <select name="location" id="location">
+        <option value="select one">Select One</option>
+
+    </select>
+    <h3>Additional Instructions</h3>
+    <label for="special" name="special">Special</label>
+    <textarea id="special" name="special" rows="4" cols="25"></textarea>
+    <button type="button">Submit</button>
+</body>
+
+</html>
